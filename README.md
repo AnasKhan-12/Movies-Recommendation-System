@@ -2,37 +2,37 @@
 This project is a content-based movie recommendation system built using Python. It suggests similar movies based on a given input title by analyzing features such as genres, keywords, cast, crew, and more.
 
 ### Features
-Uses a cleaned and preprocessed version of the TMDB 5000 Movie Dataset.
+* Uses a cleaned and preprocessed version of the TMDB 5000 Movie Dataset.
 
-Combines multiple features (genres, overview, cast, crew) into a single 'tags' field.
+* Combines multiple features (genres, overview, cast, crew) into a single 'tags' field.
 
-Utilizes TF-IDF Vectorization and cosine similarity to measure movie similarity.
+* Utilizes TF-IDF Vectorization and cosine similarity to measure movie similarity.
 
-Returns the top 5 similar movies based on content.
+* Returns the top 5 similar movies based on content.
 
 ### Technologies Used
-Python
+* Python
 
-Pandas
+* Pandas
 
-NumPy
+* NumPy
 
-Scikit-learn
+* Scikit-learn
 
-NLTK
+* NLTK
 
-Jupyter Notebook
+* Jupyter Notebook
 
 ### How It Works
-Dataset is loaded and cleaned (removing nulls, unnecessary columns, etc.).
+* Dataset is loaded and cleaned (removing nulls, unnecessary columns, etc.).
 
-Key features like genres, cast, crew, and overview are extracted and combined.
+* Key features like genres, cast, crew, and overview are extracted and combined.
 
-Text data is vectorized using TF-IDF.
+* Text data is vectorized using TF-IDF.
 
-Similarity between movies is calculated using cosine similarity.
+* Similarity between movies is calculated using cosine similarity.
 
-You can input a movie title and get top recommendations based on its content.
+* You can input a movie title and get top recommendations based on its content.
 
 How to Use
 Open the notebook in Jupyter or Google Colab.
