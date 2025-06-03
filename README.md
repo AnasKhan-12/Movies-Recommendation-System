@@ -1,7 +1,7 @@
 # Movie Recommendation System
 This project is a content-based movie recommendation system built using Python. It suggests similar movies based on a given input title by analyzing features such as genres, keywords, cast, crew, and more.
 
-Features
+### Features
 Uses a cleaned and preprocessed version of the TMDB 5000 Movie Dataset.
 
 Combines multiple features (genres, overview, cast, crew) into a single 'tags' field.
@@ -10,7 +10,7 @@ Utilizes TF-IDF Vectorization and cosine similarity to measure movie similarity.
 
 Returns the top 5 similar movies based on content.
 
-Technologies Used
+### Technologies Used
 Python
 
 Pandas
@@ -23,7 +23,7 @@ NLTK
 
 Jupyter Notebook
 
-How It Works
+### How It Works
 Dataset is loaded and cleaned (removing nulls, unnecessary columns, etc.).
 
 Key features like genres, cast, crew, and overview are extracted and combined.
