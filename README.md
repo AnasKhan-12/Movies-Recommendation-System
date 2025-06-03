@@ -33,10 +33,3 @@ This project is a content-based movie recommendation system built using Python. 
 * Similarity between movies is calculated using cosine similarity.
 
 * You can input a movie title and get top recommendations based on its content.
-
-How to Use
-Open the notebook in Jupyter or Google Colab.
-
-Run all cells to preprocess the data and build the recommendation model.
-
-Use the recommend('Movie Title') function to get suggestions.
