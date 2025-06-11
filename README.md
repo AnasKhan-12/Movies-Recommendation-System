@@ -6,7 +6,7 @@ This project is a content-based movie recommendation system built using Python. 
 
 * Combines multiple features (genres, overview, cast, crew) into a single 'tags' field.
 
-* Utilizes TF-IDF Vectorization and cosine similarity to measure movie similarity.
+* Utilizes Vectorization and cosine similarity to measure movie similarity.
 
 * Returns the top 5 similar movies based on content.
 
@@ -28,7 +28,7 @@ This project is a content-based movie recommendation system built using Python. 
 
 * Key features like genres, cast, crew, and overview are extracted and combined.
 
-* Text data is vectorized using TF-IDF.
+* Text data is vectorized.
 
 * Similarity between movies is calculated using cosine similarity.
 
